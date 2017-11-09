@@ -1,0 +1,154 @@
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Verdana; 
+	background-color: #330d00;
+	height: 100%;
+}
+
+nav{
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 64px;
+	border-bottom: 1px solid white;
+	position: fixed;
+	z-index: 99;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+nav ul li:hover{
+	background-color: #330d00;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	line-height: 60px;
+}
+
+.bannerhome{
+ 	background-image: url(home/home-banner.jpg);
+ 	height: 200px;
+ 	width: 100%;
+ 	background-size: cover;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+}
+
+.bannerhome img{
+	height: 200px;
+}
+
+.bannerover{
+ 	background-image: url(jobs/jobs-photo4.jpg);
+ 	height: 200px;
+ 	width: 100%;
+ 	background-size: cover;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+}
+
+.bannerover img{
+	height: 200px;
+}
+
+.mySlides{
+ 	height: 200px;
+ 	width: 100%;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+}
+
+.mySlides img{
+	height: 200px;
+}
+
+.bannercontact{
+ 	background-image: url(contact/contact-banner.jpg);
+ 	height: 200px;
+ 	width: 100%;
+ 	background-size: cover;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+}
+
+.bannercontact img{
+	height: 200px;
+}
+
+main{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding-top: 64px;
+	padding-bottom: 40px;
+}
+
+.all{
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1{
+	color: white;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+p{
+	color: white;
+	font-size: 15px;	
+	padding-bottom: 10px;
+}
+
+.right{
+	float: right;		
+}
+
+.main{
+	position: absolute;
+}
+
+.aside{
+	position: absolute;
+	left: 250px;
+}
+
+.headerplaatje{
+	height: 200px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.headerplaatje img{
+	height: 200px;
+}
+
+.jobs{
+	display: inline-block;	
+	margin: 0 auto;
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+
+.right2{
+	float: right;
+}
